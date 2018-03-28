@@ -13,8 +13,6 @@ if (!global._babelPolyfill) // https://github.com/s-panferov/awesome-typescript-
 // ... will print 'undefined' without the the babel-polyfill being required.
 
 
-import {assert} from 'chai';
-
 
 import {gcd} from './gcd.js';
 
